@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="ar"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="ar"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="ar"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="ar"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
 
 	<!-- Set the viewport width to device width for mobile -->
 	<meta name="viewport" content="width=device-width" />
 
-	<title>Welcome to Foundation</title>
+	<title>مرحباً بكم في فاونديشن</title>
   
 	<!-- Included CSS Files -->
 	<!-- Combine and Compress These CSS Files -->
@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="stylesheets/forms.css">
 	<link rel="stylesheet" href="stylesheets/orbit.css">
 	<link rel="stylesheet" href="stylesheets/reveal.css">
+	<link rel="stylesheet" href="stylesheets/rtl.css">
 	<link rel="stylesheet" href="stylesheets/mobile.css">
 	<!-- End Combine and Compress These CSS Files -->
 	<link rel="stylesheet" href="stylesheets/app.css">
@@ -44,89 +45,90 @@
 
 		<div class="row">
 			<div class="twelve columns">
-				<h2>Welcome to Foundation</h2>
-				<p>This is version 2.1.4 released on December 19, 2011</p>
+				<h2>مرحباً بكم في فاونديشن (الأساس)</h2>
+				<p>هذه النسخة رقم ٢.١.٤ المعربة. أصدرت النسخة الأصلية في يوم ١٩ كانون الأول ٢٠١١.</p>
 				<hr />
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="eight columns">
-				<h3>The Grid</h3>
+				<h3>الشبكة</h3>
 
 				<!-- Grid Example -->
 				<div class="row">
 					<div class="twelve columns">
 						<div class="panel">
-							<p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
+							<p>هذا صف مقسم إلى اثني عشرة عمود. بداخل كل عمود ديف div بتصنيف "panel" لكي تري مكان الأعمدة. هذا ليس مطلوب لاستخدام الأعمدة و هو لغرض العرض فقط. </p>
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="six columns">
 						<div class="panel">
-							<p>Six columns</p>
+							<p>ستة أعمدة</p>
 						</div>
 					</div>
 					<div class="six columns">
 						<div class="panel">
-							<p>Six columns</p>
+							<p>ستة أعمدة</p>
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="four columns">
 						<div class="panel">
-							<p>Four columns</p>
+							<p>أربعة أعمدة</p>
 						</div>
 					</div>
 					<div class="four columns">
 						<div class="panel">
-							<p>Four columns</p>
+							<p>أربعة أعمدة</p>
 						</div>
 					</div>
 					<div class="four columns">
 						<div class="panel">
-							<p>Four columns</p>
+							<p>أربعة أعمدة</p>
 						</div>
 					</div>
 				</div>
 
-				<h3>Tabs</h3>
+				<h3>ألسنة</h3>
 				<dl class="tabs">
-					<dd><a href="#simple1" class="active">Simple Tab 1</a></dd>
-					<dd><a href="#simple2">Simple Tab 2</a></dd>
-					<dd><a href="#simple3">Simple Tab 3</a></dd>
+					<dd><a href="#simple1" class="active">هذا اللسان رقم ١</a></dd>
+					<dd><a href="#simple2">هذا اللسان رقم ٢</a></dd>
+					<dd><a href="#simple3">هذا اللسان رقم ٣</a></dd>
 				</dl>
 
 				<ul class="tabs-content">
-					<li class="active" id="simple1Tab">This is simple tab 1's content. Pretty neat, huh?</li>
-					<li id="simple2Tab">This is simple tab 2's content. Now you see it!</li>
-					<li id="simple3Tab">This is simple tab 3's content. It's, you know...okay.</li>
+					<li class="active" id="simple1Tab">هذا محتوى اللسان رقم ١. يا سلام!</li>
+					<li id="simple2Tab">هذا محتوى اللسان رقم ٢. رهيب!</li>
+					<li id="simple3Tab">هذا محتوى اللسان رقم ٣. عادي.</li>
 				</ul>
 
-				<h3>Buttons</h3>
+				<h3>أزرار</h3>
 
-				<p><a href="#" class="small blue button">Small Blue Button</a></p>
-				<p><a href="#" class="blue button">Medium Blue Button</a></p>
-				<p><a href="#" class="large blue button">Large Blue Button</a></p>
+				<p><a href="#" class="small blue button">زر أزرق صغير</a></p>
+				<p><a href="#" class="blue button">زر أزرق متوسط</a></p>
+				<p><a href="#" class="large blue button">زر أزرق كبير</a></p>
 
-				<p><a href="#" class="nice radius small blue button">Nice Blue Button</a></p>
-				<p><a href="#" class="nice radius blue button">Nice Blue Button</a></p>
-				<p><a href="#" class="nice radius large blue button">Nice Blue Button</a></p>
+				<p><a href="#" class="nice radius small blue button">زر أزرق جميل</a></p>
+				<p><a href="#" class="nice radius blue button">زر أزرق جميل</a></p>
+				<p><a href="#" class="nice radius large blue button">زر أزرق جميل</a></p>
 
 			</div>
 
 			<div class="four columns">			
-				<h4>Getting Started</h4>
-				<p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-
-				<h4>Other Resources</h4>
-				<p>Once you've exhausted the fun in this document, you should check out:</p>
+				<h4>البداية</h4>
+				<p> نحن سعيدون لقراركم باستخدام الأساس. لتسهيل بدايتكم، وفرنا لكم هذه الصفحة الحاوية على بعض التصميم البسيط لكي تعدِّلوا فيها كما شئتم. </p>
+				<h4>موارد أخرى</h4>
+				<p>في حال أن فرغتم من هذه الصفحة، بإمكانكم الاطلاع على الموارد التالية:</p>
 				<ul class="disc">
-					<li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
-					<li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
-					<li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
+					<li><a href="http://foundation.zurb.com/docs">توثيق الأساس</a><br />كل ما أردتم معرفته عن الأساس</li>
+					<li><a href="https://github.com/ghaida/foundation-rtl">الأساس المعرب على جيت هب</a><br />لآخر التحديثات</li>
+					<li><a href="http://github.com/zurb/foundation">الأساس الأصلي على جيت هب</a><br />لآخر التحديثات</li>
+					<li><a href="http://twitter.com/GhaidaZahran">@GhaidaZahran</a><br />غرد لي.</li>
+					<li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />غرد لصانعي الأساس في شركة زَرب.</li>
 				</ul>
 			</div>
 		</div>
